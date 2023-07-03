@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Jost', sans-serif;
+
+}
+#backnav {
+    background-color: #031926;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#background {
+    background-color: #031926;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center;
+
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+
+#background1 {
+    background-color: #468189;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+
+
+#title {
+    color: #6B9AA1;
+    font-family: 'Jost', sans-serif;
+    padding: 25px;
+}
+
+#titulo1 {
+    color: #6B9AA1;
+    font-family: 'Jost', sans-serif;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+#title2 {
+    color: #031926;
+    font-family: 'Jost', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 5%;
+    margin-bottom: 3%;
+}
+#titulo2 {
+    color: #6B9AA1;
+    font-family: 'Jost', sans-serif;
+    padding: 16px;
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+#conttitule2 {
+    background-color: #031926;
+    margin-left: 5%;
+    margin-right: 8%;
+}
+
+.btn {
+    padding: 1rem;
+    width: 313px;
+    height: 66px;
+
+    border-radius: 50px;
+    color: aliceblue;
+    border: 2px solid #6B9AA1;
+    position: relative;
+
+    font-size: 1.5rem;
+    background-color:  #468189;
+}
+
+.btn:hover {
+    background-color: #6B9AA1;
+    color: aliceblue;
+}
+
+#inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 50%;
+    min-width: 100vh;
+    margin-left: 3%;
+
+}
+
+#logo {
+    height: 100%;
+    width: 100%;
+    margin-left: 2%
+}
+
+.opacity {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    position:absolute ;
+    background-color: #031926;
+    opacity: 60%;
+}
+
+#contbtn {
+    padding-top: 6%;
+}
+
+#imglogo {
+    margin-left: 5%;
+}
+
+@media only screen and (max-width : 901px) {
+    #background {
+        flex-direction: column-reverse;
+        min-width: 100vh;
+        align-items: flex-start;
+        justify-content: center;
+        align-items: center;
+    }
+}
