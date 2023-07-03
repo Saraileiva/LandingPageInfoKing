@@ -6,12 +6,49 @@
     font-family: 'Jost', sans-serif;
 
 }
+head {
+    background-color: #031926;
+    width: 100%;
+    height: 100%;
+}
 #backnav {
     background-color: #031926;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 }
+.nav {
+    list-style: none;
+    overflow: hidden;
+    text-decoration: none;
+    list-style: none;
+    color: #6B9AA1;
+    font-family: 'Jost', sans-serif;
+    font-size: 23px;
+    padding: 10px;
+    margin-left: 25px;
+
+}
+#imgnav{
+    margin-top: 10px;
+    width: 34px;
+    height: 34px;
+}
+#imgnav1{
+    margin-top: 8px;
+    width: 34px;
+    height: 34px;
+    margin-left: 25px;
+}
+#contnav{
+    display: flex;
+    flex-direction: row;
+    margin-left: 68%;
+}
+
 #background {
     background-color: #031926;
     background-repeat: no-repeat;
@@ -45,43 +82,55 @@
 #title {
     color: #6B9AA1;
     font-family: 'Jost', sans-serif;
-    padding: 25px;
+    padding: 10px;
 }
 
 #titulo1 {
     color: #6B9AA1;
     font-family: 'Jost', sans-serif;
-    padding: 20px;
-    text-align: center;
-    position: relative;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 36px;
+    padding: 15px;
+    position: relative; 
+    text-align: justify;
+    font-size:25px;
 }
 
 #title2 {
     color: #031926;
     font-family: 'Jost', sans-serif;
-    font-weight: bold;
-    font-size: 40px;
-    margin-left: 5%;
-    margin-bottom: 3%;
+    font-size: xx-large;
+    margin-left: 10%;
+    margin-bottom: 2%;
 }
 #titulo2 {
     color: #6B9AA1;
     font-family: 'Jost', sans-serif;
-    padding: 16px;
-    text-align: center;
-    position: relative;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 36px;
+    padding: 15px;
+    text-align: justify;
+    font-weight: bold;
+    font-size: 28px;
+
 }
 
 #conttitule2 {
     background-color: #031926;
     margin-left: 5%;
     margin-right: 8%;
+}
+
+#conttext {
+    background-color: #031926;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+#texto3 {
+    color: #6B9AA1;
+    font-family: 'Jost', sans-serif;
+    padding: 35px;
+    text-align: justify;
+    position: relative;
+    font-size: 22px;
 }
 
 .btn {
@@ -110,7 +159,7 @@
     align-content: center;
     width: 50%;
     min-width: 100vh;
-    margin-left: 3%;
+    margin-left: 5%;
 
 }
 
@@ -129,20 +178,62 @@
     opacity: 60%;
 }
 
-#contbtn {
-    padding-top: 6%;
+#contlogbtn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 3%;
 }
 
 #imglogo {
     margin-left: 5%;
+    align-content: center;
 }
+
 
 @media only screen and (max-width : 901px) {
     #background {
+        width: 100%;
+        padding: 5%;
         flex-direction: column-reverse;
         min-width: 100vh;
         align-items: flex-start;
         justify-content: center;
         align-items: center;
     }
+    #backnav{
+        width: 100%;
+    }
+    html {
+        min-width: 100%;
+        min-height: 100%;
+        margin: 0;
+    
+    }
+    #background1 {
+        width: 100%;
+        padding: 5%;
+        flex-direction: column-reverse;
+        min-width: 100vh;
+        align-items: flex-start;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #inicio{
+        padding: 5%;
+    }
+}
+
+@media only screen and (min-width : 1224px) {
+    html{
+        min-width: 100%;
+        min-height: 100%;
+        margin: 0;
+    
+    }
+    
+
 }
