@@ -292,5 +292,7 @@
     #bodycont {
         padding: 25px;
     }
-
+    #titlepriv {
+        display: none;
+    }
 }
