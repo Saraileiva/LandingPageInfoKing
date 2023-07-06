@@ -6,19 +6,14 @@
     font-family: 'Jost', sans-serif;
 
 }
-head {
-    background-color: #031926;
-    width: 100%;
-    height: 100%;
-}
+
 #backnav {
     background-color: #031926;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     display: flex;
     flex-direction: row;
-    width: 100%;
 }
 .nav {
     list-style: none;
@@ -46,7 +41,7 @@ head {
 #contnav{
     display: flex;
     flex-direction: row;
-    margin-left: 68%;
+    margin-left: 58%;
 }
 
 #background {
@@ -129,7 +124,7 @@ head {
     font-family: 'Jost', sans-serif;
     padding: 35px;
     text-align: justify;
-    position: relative;
+    position: relative; 
     font-size: 22px;
 }
 
@@ -188,15 +183,14 @@ head {
 }
 
 #imglogo {
+    width: 50%;
     margin-left: 5%;
     align-content: center;
 }
 
 
-@media only screen and (max-width : 901px) {
+@media only screen and (max-width : 900px) {
     #background {
-        width: 100%;
-        padding: 5%;
         flex-direction: column-reverse;
         min-width: 100vh;
         align-items: flex-start;
@@ -204,36 +198,99 @@ head {
         align-items: center;
     }
     #backnav{
-        width: 100%;
+        min-width: 100vh;
+        padding: 2%;
+        justify-content: space-around;
     }
-    html {
-        min-width: 100%;
-        min-height: 100%;
-        margin: 0;
+    #contnav {
+        margin-left: 20%;
+    }
     
-    }
     #background1 {
-        width: 100%;
-        padding: 5%;
         flex-direction: column-reverse;
         min-width: 100vh;
         align-items: flex-start;
         justify-content: center;
         align-items: center;
+        
     }
 
     #inicio{
-        padding: 5%;
+        padding-right: 5%;
+        padding-bottom: 3%;
     }
+    #Info{
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+
+    #bodycont {
+        padding: 25px;
+    }
+
 }
 
-@media only screen and (min-width : 1224px) {
-    html{
-        min-width: 100%;
-        min-height: 100%;
-        margin: 0;
-    
+/* css for privacity.html */
+
+#bodycont {
+    background-color: #031926;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    margin-bottom: 1.5%;
+}
+
+.titlepriv {
+    color:#468189;
+    font-family: 'Jost', sans-serif;
+    padding-top: 16px;
+}
+
+.titlepriv1 {
+    color:#468189;
+    font-family: 'Jost', sans-serif;
+}
+
+.parrafopriv {
+    color: #6B9AA1;
+    font-family: 'Jost', sans-serif;
+    padding-top: 8px;
+}
+
+.navpriv {
+    list-style: none;
+    overflow: hidden;
+    text-decoration: none;
+    list-style: none;
+    color: #6B9AA1;
+    font-family: 'Jost', sans-serif;
+    font-weight: bold;
+}
+#backnavpriv {
+    background-color: #031926;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 12px;
+}
+
+#titlepriv {
+    color: #6B9AA1;
+    font-family: 'Jost', sans-serif;
+    font-weight: bold;
+
+}
+#imgnavpriv {
+    width: 34px;
+    height: 34px;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width : 900px) {
+    #bodycont {
+        padding: 25px;
     }
-    
 
 }
